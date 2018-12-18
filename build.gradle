@@ -14,6 +14,8 @@ dependencies {
 //    compile("org.springframework:spring-web:4.3.9.RELEASE")
 //    compile("org.springframework:spring-webmvc:4.3.9.RELEASE")
     testCompile("org.springframework.boot:spring-boot-starter-test")
+    compileOnly('org.projectlombok:lombok')
+    compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.1")
 }
 
 bootRun.environment([
