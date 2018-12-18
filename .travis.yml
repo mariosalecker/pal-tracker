@@ -52,3 +52,4 @@ jobs:
         password: $CF_PASSWORD2
         organization: $CF_ORG2
         space: review
+        manifest: manifest2.yml
