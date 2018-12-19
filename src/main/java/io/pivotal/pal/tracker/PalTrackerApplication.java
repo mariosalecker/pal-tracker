@@ -16,11 +16,6 @@ public class PalTrackerApplication {
         SpringApplication.run(PalTrackerApplication.class, args);
     }
 
-//    @Bean
-//    public TimeEntryRepository getRepository() {
-//        return (TimeEntryRepository) new InMemoryTimeEntryRepository();
-//    }
-
     @Bean
     public ObjectMapper getObjectMapper(){
         return Jackson2ObjectMapperBuilder.json()

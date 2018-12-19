@@ -1,10 +1,7 @@
 package io.pivotal.pal.tracker;
 
-import org.springframework.stereotype.Component;
-
 import java.util.*;
 
-@Component
 public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
     private Map<Long, TimeEntry> timeEntries = new HashMap<>();
